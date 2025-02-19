@@ -1,4 +1,7 @@
 package org.example;
+/*
+Создайте метод printThreeWords(), который при вызове должен отпечатать в столбец три слова: Orange, Banana, Apple.
+ */
 
 public class Lesson1_1 {
     public static void main(String[] args) {
