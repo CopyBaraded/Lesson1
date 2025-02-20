@@ -12,9 +12,7 @@ public class Lesson1_14 {
         int initialValue = 555;
         int [] mas = new int[len];
         System.out.println("Пустой массив " + Arrays.toString(mas));
-        for (int i = 0; i < mas.length; i++) {
-            mas [i] = initialValue;
-        }
+        Arrays.fill(mas, initialValue);
         System.out.println("Заполненный массив " + Arrays.toString(mas));
 
 
