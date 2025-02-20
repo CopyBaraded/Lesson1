@@ -11,7 +11,15 @@ import java.util.Arrays;
 public class Lesson1_13 {
     public static void main(String[] args) {
 
-        int[] twoMas [] = new int[10][10];
+        int[] twoMas[] = new int[10][10];
+        for (int i = 0; i < args.length; i++) {
+            twoMas[i][i] = 1;
+            twoMas[i][args.length - 1 - i] = 1;
+        }
+        printMas(twoMas);
+
+    }
+    public static void printMas(int[][] twoMas){
         for (int [] line : twoMas) {
             for (int item : line) {
 
@@ -22,8 +30,6 @@ public class Lesson1_13 {
         }
 
         }
-
-
 
     }
 
