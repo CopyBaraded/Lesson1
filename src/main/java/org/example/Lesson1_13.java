@@ -6,5 +6,25 @@ package org.example;
 то есть [0][0], [1][1], [2][2], ...,. [n][n]
  */
 
+import java.util.Arrays;
+
 public class Lesson1_13 {
-}
+    public static void main(String[] args) {
+        int counter = 1;
+        int[][] twoMas = new int[10][10];
+        for (int i = 0; i < 10; i++) {
+            for (int j = 0; j < 10; j++) {
+                twoMas[i][j] = counter;
+                System.out.println(twoMas[i][j] + " ");
+                counter ++;
+
+            }
+
+        }
+
+        }
+
+
+
+    }
+
