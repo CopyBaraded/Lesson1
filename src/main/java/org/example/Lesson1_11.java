@@ -9,10 +9,11 @@ public class Lesson1_11 {
     public static void main(String[] args) {
         int [] wtf = new int[100];
         System.out.println(Arrays.toString(wtf));
-        System.out.println(wtf.length);
+        System.out.println("Длина массивы  " + wtf.length);
         for (int i = 0; i < wtf.length; i++) {
-
+            wtf[i] = i + 1;
 
         }
+        System.out.println( Arrays.toString(wtf));
     }
 }
