@@ -13,8 +13,8 @@ public class Lesson1_2 {
     }
     public static void checkSumSign(){
         int a = 5;
-        int b = -6;
-        int suma = a +b;
+        int b = 6;
+        int suma = a + b;
 
         if (suma >= 0){
             System.out.println("Сумма положительная");
